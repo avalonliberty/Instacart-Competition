@@ -1,18 +1,12 @@
----
-title: "Intro to Instacart Competition"
-author: "Avalon"
-date: "12/7/2017"
-output: html_document
----
 
 ```{r setup, include=FALSE, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Introduction to the Instacart Competition
+## Introduction and review to the Instacart Competition
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+** Motivation **Since I and my friend, Sam Lin, both love to explore data science field, we decided to conquer this competition as a team. I am really appreciate his suggestions and viewpoints, I learn a lot from the experience in this contest.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
 
 
