@@ -6,7 +6,7 @@ library(mlr)
 
 
 # Read in data
-FilePath <- "/Users/Avalon/Downloads/InstaCartProject/"
+FilePath <- "/Users/Avalon/Instacart Competition/"
 aisles <- paste0(FilePath, "aisles.csv") %>>% fread(nThread = 4)
 department <- paste0(FilePath, "departments.csv") %>>% fread(nThread = 4)
 orders <- paste0(FilePath, "orders.csv") %>>% fread(nThread = 4)

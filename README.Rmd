@@ -1,11 +1,19 @@
-
 ```{r setup, include=FALSE, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
 ## Introduction and review to the Instacart Competition
 
-** Motivation **Since I and my friend, Sam Lin, both love to explore data science field, we decided to conquer this competition as a team. I am really appreciate his suggestions and viewpoints, I learn a lot from the experience in this contest.
+**Feedback**
+---
+Since I and my friend, Sam Lin, both love to explore data science field, we decided to conquer this competition as a team. I am really appreciate his suggestions and viewpoints, I learn a lot from the experience in this contest. The exchange of ideas seriously help me to achieve higher score on the leaderboard. If you are a data science lover and tend to team up with someome, please feel free to contact me. 
+
+**Review**
+---
+This competition is different those competitions which I participated before. It do not offer merely two datasets, training set and testing set. Instead, it offers several csv file and ask to manipulate them into a well-structured file. At first, I faced some challenges in dealing with this issue, since I do not really understand what to do. With Sam's help, I generated a table with roughly tens millions rows. Compared to those massive projects, it is a tiny dataset, my computer, though, is unable to affort this tremendous dataset. This reminds me the importance of memory usage. In R, the package *Datatable* allows you to make good use of memory and prevent from executing unnecessary copy when you handle your dataset.
+
+After solving the dataset issue, I started my project by using logistic regression and origianl features to predict the items. Not surprisingly, it yield roughly 0.26 F-value. To my surprise, purchase hour and purchase weekday do not have significant impacts on the consequence, it seems not match what we commonly beleive. These two features reflect extremely low importance in predicting the results. I am not sure whether we make correct use of these two features. We generate a lot of strong features through feature engineering. You could check these newly-generated features in my project code. After completing this procedure, we achieved roughly 0.36 F-value. It was not a remarkable score then; therefore we switched our model to other state-of-art models, like GBM, GLM, and XGBOOST. Fortunately, this yields 0.38 F-value, which could ranked among top 20% then. Since I did not have enough time to compete with other competitors, I did quit after achieved this score. It was an amazing experience that allowed me to learn how to conquer more challenging problem.
+
+
 
 
 
